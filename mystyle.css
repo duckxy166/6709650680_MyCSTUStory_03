@@ -44,7 +44,7 @@ a:link, a:visited {
 
 .navbox {
     background-color: #ffffff;
-    border-radius: 16px;
+    border-radius: 165px;
     margin-right: 5%;
 }
 .navbar .logo {
@@ -59,13 +59,24 @@ a:link, a:visited {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 96%;
     padding: 20px;
     background-color: #000;
     position: sticky;
     top: 0;
     z-index: 1000;
     height: 60px;
+    border-radius: 1266px;
+}
+.footer 
+{
+    padding:30px;
+    background-color: #000;
+    color: #fff;
+ width: 96%;
+    text-align: center;
+    position: relative;
+    border-radius: 266px;
 }
 
 .navbar ul {
@@ -254,15 +265,7 @@ p {
 
 
 
-.footer 
-{
-    padding:30px;
-    background-color: #000;
-    color: #fff;
- width: 100%;
-    text-align: center;
-    position: relative;
-}
+
 
 
 
