@@ -15,21 +15,7 @@ position: relative;
 }
 
 @media screen and (max-width: 600px) {
-    body {
-        position: relative;
-        background-size:contain;
-    }
-    h1 {
-        font-size: 16px;
-    }
-    .navbar {
-        flex-direction:row;
-      position: sticky;
-      display: flexbox;
-    }
-    p{
-        font-size: 25px; 
-    }
+ 
     }
 
 
@@ -50,28 +36,12 @@ a:link, a:visited {
   }
   
   a:hover, a:active {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(116, 98, 98);
        border-radius: 16px;
   }
   
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 20px;
-    background-color: #000;
-    position: sticky;
-    top: 0;
-     animation: logo-color-animation 5s infinite; 
-     z-index: 1000;
-     padding:30px;
-     background-color: #000;
-     width: 100%;
-   height: 60px;
-    
-}
+
 .navbox {
     background-color: #ffffff;
     border-radius: 16px;
@@ -85,18 +55,29 @@ a:link, a:visited {
     animation: logo-color-animation 8s infinite; 
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #000;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 60px;
+}
+
 .navbar ul {
     list-style: none;
     display: flex;
-        animation: logo-color-animation 8s infinite; 
-
+    gap: 15px; 
 }
 
 .navbar a {
     font-weight: 700;
     margin: 5px;
-    animation: logo-color-animation 8s infinite; 
-    display: flex;
+    display: block;
 }
 
 .section {
