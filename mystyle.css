@@ -14,9 +14,68 @@ background-size: cover;
 position: relative;
 }
 
-@media screen and (max-width: 600px) {
- 
+/* มือถือ */
+@media screen and (max-width: 599px) {
+    body {
+        font-size: 0.875rem; 
     }
+    .navbar, .footer {
+        padding: 10px;
+        flex-direction: column;
+        height: auto;
+    }
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .navbar .logo {
+        font-size: 1.2em; 
+    }
+    .main-image, .journey-image, .year2-image, .year3-image, .year4-image {
+        width: 100%; 
+        height: auto;
+    }
+    .content h1 {
+        font-size: 2em; 
+    }
+}
+
+/* แท็ปเล็ต */
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    body {
+        font-size: 1rem; 
+    }
+    .navbar, .footer {
+        flex-direction: row;
+    }
+    .navbar .logo {
+        font-size: 1.4em;
+    }
+    .content h1 {
+        font-size: 2.5em; 
+    }
+}
+
+/* PC */
+@media screen and (min-width: 900px) {
+    body {
+        font-size: 1.25rem; 
+    }
+    .navbar {
+        height: 60px;
+    }
+    .navbar .logo {
+        font-size: 1.8em; 
+    }
+    .content h1 {
+        font-size: 3em;
+    }
+    .main-image, .journey-image, .year2-image, .year3-image, .year4-image {
+        width: 500px;
+        height: 300px;
+    }
+}
+
 
 
 .logo{
@@ -44,7 +103,7 @@ a:link, a:visited {
 
 .navbox {
     background-color: #ffffff;
-    border-radius: 165px;
+    border-radius: 16px;
     margin-right: 5%;
 }
 .navbar .logo {
