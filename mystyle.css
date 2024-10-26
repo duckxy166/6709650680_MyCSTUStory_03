@@ -19,41 +19,41 @@ position: relative;
     body {
         font-size: 0.875rem; 
     }
-    .navbar, .footer {
-        padding: 10px;
-        flex-direction: column;
-        height: auto;
+    .content h1{
+        font-size: 2em;
     }
-    .navbar ul {
-        flex-direction: column;
-        gap: 10px;
+    .h1 {
+        font-size: 1rem;
+        padding:10px;
     }
-    .navbar .logo {
-        font-size: 1.2em; 
-    }
-    .main-image, .journey-image, .year2-image, .year3-image, .year4-image {
-        width: 100%; 
-        height: auto;
-    }
-    .content h1 {
-        font-size: 2em; 
-    }
+    .navbar {
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #f1f1f1;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+      }
+      .navbar a {
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+        text-align: center;
+        float: none;
+      }
+      .animation-wrapper{
+        display: none;
+      }
+      .circle {
+        display: none;
+      }
 }
 
 /* แท็ปเล็ต */
 @media screen and (min-width: 600px) and (max-width: 899px) {
-    body {
-        font-size: 1rem; 
-    }
-    .navbar, .footer {
-        flex-direction: row;
-    }
-    .navbar .logo {
-        font-size: 1.4em;
-    }
-    .content h1 {
-        font-size: 2.5em; 
-    }
+
 }
 
 /* PC */
@@ -73,6 +73,24 @@ position: relative;
     .main-image, .journey-image, .year2-image, .year3-image, .year4-image {
         width: 500px;
         height: 300px;
+    }
+    h1 ,h3 {
+        font-family: 'Courier New', Courier, monospace;
+        padding: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    h2 {
+        font-family: 'Courier New', Courier, monospace;
+        padding: 20px;
+        justify-content: center;
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    h3 {
+        font-size: 2em;
     }
 }
 
@@ -118,14 +136,14 @@ a:link, a:visited {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 96%;
+    width: 100%;
     padding: 20px;
     background-color: #000;
     position: sticky;
     top: 0;
     z-index: 1000;
     height: 60px;
-    border-radius: 1266px;
+    border-radius: 0px;
 }
 .footer 
 {
@@ -135,7 +153,6 @@ a:link, a:visited {
  width: 96%;
     text-align: center;
     position: relative;
-    border-radius: 266px;
 }
 
 .navbar ul {
@@ -164,12 +181,7 @@ a:link, a:visited {
   
 }
 
-.content h1 {
-    font-size: 3em;
-    margin: 0;
-    line-height: 1.1;
-    
-}
+
 
 .content p {
     margin: 20px ;
@@ -273,24 +285,7 @@ a:link, a:visited {
     border-radius: 16px;
   }
 
-h1 ,h3 {
-    font-family: 'Courier New', Courier, monospace;
-    padding: 20px;
-    justify-content: center;
-    text-align: center;
-}
 
-h2 {
-    font-family: 'Courier New', Courier, monospace;
-    padding: 20px;
-    justify-content: center;
-    text-align: center;
-    font-size: 2em;
-}
-
-h3 {
-    font-size: 2em;
-}
 
 p {
     font-family: 'Courier New', Courier, monospace;
