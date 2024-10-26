@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     box-sizing: border-box;
     background-image: url('resources/wp6193134.jpg'); 
 background-position: center;
@@ -19,6 +20,7 @@ position: relative;
     body {
         font-size: 0.875rem; 
     }
+  
     .content h1{
         font-size: 2em;
     }
@@ -43,6 +45,40 @@ position: relative;
         text-align: center;
         float: none;
       }
+     .main-image{
+width: 100%;
+        height: 300px;
+    border-radius: 16px;
+}
+.main-image-box{
+    max-width: 300px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 00px;
+    margin-top: 0px;
+    height: 150px;
+    margin-bottom: 0px;
+
+}
+video{
+    width: 300px;
+    aspect-ratio: auto 300 / 150;
+    height: 150px;
+}
+h1 ,h3 {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+}
       .animation-wrapper{
         display: none;
       }
@@ -60,6 +96,18 @@ position: relative;
 @media screen and (min-width: 900px) {
     body {
         font-size: 1.25rem; 
+    }
+    video{
+        width: 500px;
+        aspect-ratio: auto 500 / 300;
+        height: 300px;
+    }
+    .main-image-box{
+        max-width: 500px;
+    }
+    .main-image{
+        height: 300px;
+    border-radius: 16px;
     }
     .navbar {
         height: 60px;
@@ -92,6 +140,24 @@ position: relative;
     h3 {
         font-size: 2em;
     }
+    .navbar ul {
+        gap: 15px; 
+    }
+}
+
+h1 ,h3 {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+
 }
 
 
@@ -158,7 +224,6 @@ a:link, a:visited {
 .navbar ul {
     list-style: none;
     display: flex;
-    gap: 15px; 
 }
 
 .navbar a {
@@ -192,7 +257,7 @@ a:link, a:visited {
     border-radius: 8px;      
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     background-color: rgba(249, 249, 249, 0.7);
-    max-width: 500px;
+    
 
 }
 
@@ -202,12 +267,11 @@ a:link, a:visited {
 
 .main-image {
 
-    width: 500px;
+    
     background-image: url('resources/IMG_9409.jpg');
     background-size: contain;
     background-repeat: no-repeat;
-    height: 300px;
-    border-radius: 16px;
+
 }
 
 .journey-image {
@@ -301,23 +365,28 @@ p {
 }
 
 
-.video-box {
-    padding: 10px;            
-    margin: 30px ;         
-    border-radius: 8px;      
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    background-color: rgba(249, 249, 249, 0.7);
-    max-width: 500px;
-    justify-content: center;
-    text-align: center;
-}
 
+.video-box {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(249, 249, 249, 0.7);
+   
+}
 
 .video-box:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 
-
+.video-box video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+   align-items: center;
+   max-width: 500px;
+   
+}
 
 
 
@@ -524,8 +593,3 @@ p {
 
 }
 
-  
-  
-    
-
-   
