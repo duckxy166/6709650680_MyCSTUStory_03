@@ -73,7 +73,8 @@ position: relative;
         display: block;
       }
       .navbar a {
-        display: block;
+        display: flex;
+        justify-content: center;
         color: black;
         padding: 5px;
         text-decoration: none;
@@ -85,6 +86,13 @@ position: relative;
     
 
        
+      }
+      .navbox{
+        display: flex;
+  justify-content: center;
+  
+  margin-right: 0px;
+
       }
       .navbar ul {
         list-style: none;
@@ -210,6 +218,7 @@ p{
       }
     .navbox {
         background-color: #ffffff;
+        margin-right: 5%;
     }
     .content h1 {
         font-size: 3em;
@@ -300,7 +309,7 @@ a:link, a:visited {
 
 .navbox {
     border-radius: 16px;
-    margin-right: 5%;e
+   
     height: 100%;
 
 }
