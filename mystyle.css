@@ -60,25 +60,30 @@ position: relative;
         font-size: 1rem;
         padding:10px;
     }
+    .navbar .logo {
+        font-size: 2em; 
+    }
     .navbar {
         margin: 0;
         padding: 0;
         width: 200px;
-        background-color: #f1f1f1;
         position: fixed;
-        height: 100%;
-        overflow: auto;
+        height: 70px;
+        overflow: visible;
+        display: block;
       }
       .navbar a {
         display: block;
         color: black;
-        padding: 16px;
+        padding: 5px;
         text-decoration: none;
         text-align: center;
         float: none;
+        margin-right: 10px;
+            margin-left: 10px;
         
-            margin: 2px;
-        
+    
+
        
       }
       .navbar ul {
@@ -87,6 +92,11 @@ position: relative;
         padding: 0px;
     
     }
+    a:link, a:visited {
+        
+        padding: 5px 15px;
+ 
+      }
      .main-image{
 width: 300px;
         height: 300px;
@@ -152,14 +162,29 @@ h2 {
         height: 300px;
     border-radius: 16px;
     }
+    .logo{
+        padding: 20px;
+        margin-left: 5%;
+        
+    }
     .navbar a {
         margin: 5px;
     }
     .navbar {
+        display: flex;
         height: 60px;
+        height: 100px;
     }
     .navbar .logo {
-        font-size: 1.8em; 
+        font-size: 1.5em; 
+    }
+    a:link, a:visited {
+        
+        padding: 15px 15px;
+ 
+      }
+    .navbox {
+        background-color: #ffffff;
     }
     .content h1 {
         font-size: 3em;
@@ -208,16 +233,13 @@ h2 {
 
 
 
-.logo{
-    padding: 20px;
-    margin-left: 5%;
-}
+
 
 a:link, a:visited {
     background-color: rgb(223, 236, 233);
     color: black;
     border: 2px solid rgb(255, 255, 255);
-    padding: 15px 15px;
+
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -232,20 +254,21 @@ a:link, a:visited {
 
 
 .navbox {
-    background-color: #ffffff;
     border-radius: 16px;
-    margin-right: 5%;
+    margin-right: 5%;e
+    height: 100%;
+
 }
 .navbar .logo {
 
     align-items: center;
     font-weight: bold;
-    font-size: 1.5em;
+
     animation: logo-color-animation 8s infinite; 
 }
 
 .navbar {
-    display: flex;
+
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -254,7 +277,6 @@ a:link, a:visited {
     position: sticky;
     top: 0;
     z-index: 1000;
-    height: 60px;
     border-radius: 0px;
 }
 .footer 
