@@ -132,7 +132,7 @@ h2 {
     font-size: 2em;
 }
 p{
-    margin: 10px;
+    margin: 15px;
 }
 .Heart-box {
     display: block;
@@ -146,6 +146,17 @@ p{
     margin-right: 0px; 
    
 }
+.year2-image {
+    width: 300px;
+  }
+
+  .year3-image {
+    width: 300px;
+  }
+
+  .year4-image {
+    width: 300px;
+  }
       .animation-wrapper{
         display: none;
       }
@@ -237,6 +248,17 @@ margin-top: 50px;
         margin-right: 50px; 
        
     }
+    .year2-image {
+        width: 500px;
+      }
+    
+      .year3-image {
+        width: 500px;
+      }
+    
+      .year4-image {
+        width: 500px;
+      }
 }
 
 h1 ,h3 {
@@ -413,7 +435,7 @@ a:link, a:visited {
 
   .year2-image {
     background-image: url('resources/code-1084923_960_720.webp');
-    width: 500px;
+
     background-size: contain;
     background-repeat: no-repeat;
     height: 300px;
@@ -422,7 +444,7 @@ a:link, a:visited {
 
   .year3-image {
     background-image: url('resources/INTERn.png');
-    width: 500px;
+
     background-size: contain;
     background-repeat: no-repeat;
     height: 300px;
@@ -431,7 +453,7 @@ a:link, a:visited {
 
   .year4-image {
     background-image: url('resources/AIT.png');
-    width: 500px;
+
     background-size: contain;
     background-repeat: no-repeat;
     height: 300px;
