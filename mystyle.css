@@ -141,6 +141,11 @@ p{
  margin-top: 0px;
 
 }
+.journey-image-box { 
+      
+    margin-right: 0px; 
+   
+}
       .animation-wrapper{
         display: none;
       }
@@ -226,6 +231,11 @@ p{
     .Heart-box {
         display: flex;
 margin-top: 50px;
+    }
+    .journey-image-box { 
+      
+        margin-right: 50px; 
+       
     }
 }
 
@@ -390,7 +400,6 @@ a:link, a:visited {
     background-color: rgba(249, 249, 249, 0.7);
     max-width: 230px;
     display: inline-block;
-    margin-right: 50px; 
     width: 230px;
 }
 
