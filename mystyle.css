@@ -16,7 +16,7 @@ position: relative;
 }
 
 /* มือถือ */
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 767px) {
 
 ::-webkit-scrollbar-track
 {
@@ -174,12 +174,12 @@ p{
 }
 
 /* แท็ปเล็ต */
-@media screen and (min-width: 600px) and (max-width: 899px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
 }
 
 /* PC */
-@media screen and (min-width: 900px) {
+@media screen and (orientation: landscape) {
     body {
         font-size: 1.25rem; 
     }
@@ -430,7 +430,7 @@ a:link, a:visited {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     background-color: rgba(249, 249, 249, 0.7);
     max-width: 230px;
-    display: inline-block;
+    display: table-cell;
     width: 230px;
 }
 
