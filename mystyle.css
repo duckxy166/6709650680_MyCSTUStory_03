@@ -8,40 +8,39 @@ body {
     align-items: center;
     text-align: center;
     box-sizing: border-box;
-    background-image: url('resources/wp6193134.jpg'); 
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
+    background-image: url('resources/wp6193134.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 /* มือถือ */
 @media screen and (max-width: 767px) {
 
-::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 3px rgb(255, 254, 254);
-	background-color: hsl(0, 0%, 100%);
-}
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 3px rgb(255, 254, 254);
+        background-color: hsl(0, 0%, 100%);
+    }
 
-::-webkit-scrollbar
-{
-	width: 10px;
-	background-color: #fbfbfb;
-}
-::-webkit-scrollbar-thumb
-{
-	background-color: rgb(223, 236, 233);
-	border: 2px solid #ffffff;
-}
+    ::-webkit-scrollbar {
+        width: 10px;
+        background-color: #fbfbfb;
+    }
 
-    
-      
-  
+    ::-webkit-scrollbar-thumb {
+        background-color: rgb(223, 236, 233);
+        border: 2px solid #ffffff;
+    }
+
+
+
+
     body {
-        font-size: 0.875rem; 
+        font-size: 0.875rem;
         overflow: scroll;
     }
+
     h3 {
         display: block;
         font-size: 2em;
@@ -52,17 +51,20 @@ position: relative;
         font-weight: bold;
         unicode-bidi: isolate;
     }
-    
-    .content h1{
+
+    .content h1 {
         font-size: 2em;
     }
+
     .h1 {
         font-size: 1rem;
-        padding:10px;
+        padding: 10px;
     }
+
     .navbar .logo {
-        font-size: 2em; 
+        font-size: 2em;
     }
+
     .navbar {
         margin: 0;
         padding: 0;
@@ -71,8 +73,9 @@ position: relative;
         height: 70px;
         overflow: visible;
         display: block;
-      }
-      .navbar a {
+    }
+
+    .navbar a {
         display: flex;
         justify-content: center;
         color: black;
@@ -81,159 +84,190 @@ position: relative;
         text-align: center;
         float: none;
         margin-right: 10px;
-            margin-left: 10px;
-        
-    
+        margin-left: 10px;
 
-       
-      }
-      .navbox{
+
+
+
+    }
+
+    .navbox {
         display: flex;
-  justify-content: center;
-  
-  margin-right: 0px;
+        justify-content: center;
 
-      }
-      .navbar ul {
+        margin-right: 0px;
+
+    }
+
+    .navbar ul {
         list-style: none;
         display: flex;
         padding: 0px;
-    
+
     }
-    a:link, a:visited {
-        
+
+    a:link,
+    a:visited {
+
         padding: 5px 15px;
- 
-      }
-     .main-image{
-width: 300px;
+
+    }
+
+    .main-image {
+        width: 300px;
         height: 300px;
-    border-radius: 16px;
-}
-.main-image-box{
-    max-width: 300px;
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 00px;
-    margin-top: 0px;
-    height: 180px;
-    margin-bottom: 0px;
+        border-radius: 16px;
+    }
 
-}
-video{
-    width: 300px;
-    aspect-ratio: auto 300 / 150;
-    height: 150px;
-}
-h1 ,h3 {
-    font-family: 'Courier New', Courier, monospace;
-    padding: 10px;
-    justify-content: center;
-    text-align: center;
-}
+    .main-image-box {
+        max-width: 300px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 00px;
+        margin-top: 0px;
+        height: 180px;
+        margin-bottom: 0px;
 
-h2 {
-    font-family: 'Courier New', Courier, monospace;
-    padding: 10px;
-    justify-content: center;
-    text-align: center;
-    font-size: 2em;
-}
-p{
-    margin: 15px;
-}
-.Heart-box {
-    display: block;
- margin-left: 50px;
- margin-right: 50px;
- margin-top: 0px;
+    }
 
-}
-.journey-image-box { 
-      
-    margin-right: 0px; 
-   
-}
-.year2-image {
-    width: 300px;
-  }
+    video {
+        width: 300px;
+        aspect-ratio: auto 300 / 150;
+        height: 150px;
+    }
 
-  .year3-image {
-    width: 300px;
-  }
+    h1,
+    h3 {
+        font-family: 'Courier New', Courier, monospace;
+        padding: 10px;
+        justify-content: center;
+        text-align: center;
+    }
 
-  .year4-image {
-    width: 300px;
-  }
-      .animation-wrapper{
+    h2 {
+        font-family: 'Courier New', Courier, monospace;
+        padding: 10px;
+        justify-content: center;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    p {
+        margin: 15px;
+    }
+
+    .Heart-box {
+        display: block;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 0px;
+
+    }
+
+    .journey-image-box {
+
+        margin-right: 0px;
+
+    }
+
+    .year2-image {
+        width: 300px;
+    }
+
+    .year3-image {
+        width: 300px;
+    }
+
+    .year4-image {
+        width: 300px;
+    }
+
+    .animation-wrapper {
         display: none;
-      }
-      .circle {
+    }
+
+    .circle {
         display: none;
-      }
+    }
 }
 
 /* แท็ปเล็ต */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-
-}
+@media screen and (min-width: 768px) and (max-width: 1024px) {}
 
 /* PC */
 @media screen and (orientation: landscape) {
     body {
-        font-size: 1.25rem; 
+        font-size: 1.25rem;
     }
-    video{
+
+    video {
         width: 500px;
         aspect-ratio: auto 500 / 300;
         height: 300px;
     }
-    .main-image-box{
+
+    .main-image-box {
         max-width: 500px;
     }
-    .main-image{
+
+    .main-image {
         height: 300px;
-    border-radius: 16px;
+        border-radius: 16px;
     }
-    .logo{
+
+    .logo {
         padding: 20px;
         margin-left: 5%;
-        
+
     }
+
     .navbar a {
         margin: 5px;
     }
+
     .navbar {
         display: flex;
         height: 60px;
         height: 100px;
     }
+
     .navbar .logo {
-        font-size: 1.5em; 
+        font-size: 1.5em;
     }
-    a:link, a:visited {
-        
+
+    a:link,
+    a:visited {
+
         padding: 15px 15px;
- 
-      }
+
+    }
+
     .navbox {
         background-color: #ffffff;
         margin-right: 5%;
     }
+
     .content h1 {
         font-size: 3em;
     }
-    .main-image, .journey-image, .year2-image, .year3-image, .year4-image {
+
+    .main-image,
+    .journey-image,
+    .year2-image,
+    .year3-image,
+    .year4-image {
         width: 500px;
         height: 300px;
     }
-    h1 ,h3 {
+
+    h1,
+    h3 {
         font-family: 'Courier New', Courier, monospace;
         padding: 20px;
         justify-content: center;
         text-align: center;
     }
-    
+
     h2 {
         font-family: 'Courier New', Courier, monospace;
         padding: 20px;
@@ -241,36 +275,41 @@ p{
         text-align: center;
         font-size: 2em;
     }
-    
+
     h3 {
         font-size: 2em;
     }
+
     .navbar ul {
-        gap: 15px; 
+        gap: 15px;
     }
+
     .Heart-box {
         display: flex;
-margin-top: 50px;
+        margin-top: 50px;
     }
-    .journey-image-box { 
-      display: table-cell;
-        margin-right: 50px; 
-       
+
+    .journey-image-box {
+        display: table-cell;
+        margin-right: 50px;
+
     }
+
     .year2-image {
         width: 500px;
-      }
-    
-      .year3-image {
+    }
+
+    .year3-image {
         width: 500px;
-      }
-    
-      .year4-image {
+    }
+
+    .year4-image {
         width: 500px;
-      }
+    }
 }
 
-h1 ,h3 {
+h1,
+h3 {
     font-family: 'Courier New', Courier, monospace;
     padding: 20px;
     justify-content: center;
@@ -289,7 +328,8 @@ h2 {
 
 
 
-a:link, a:visited {
+a:link,
+a:visited {
     background-color: rgb(223, 236, 233);
     color: black;
     border: 2px solid rgb(255, 255, 255);
@@ -298,27 +338,29 @@ a:link, a:visited {
     text-decoration: none;
     display: inline-block;
     border-radius: 16px;
-  }
-  
-  a:hover, a:active {
+}
+
+a:hover,
+a:active {
     background-color: rgb(116, 98, 98);
-       border-radius: 16px;
-  }
-  
+    border-radius: 16px;
+}
+
 
 
 .navbox {
     border-radius: 16px;
-   
+
     height: 100%;
 
 }
+
 .navbar .logo {
 
     align-items: center;
     font-weight: bold;
 
-    animation: logo-color-animation 8s infinite; 
+    animation: logo-color-animation 8s infinite;
 }
 
 .navbar {
@@ -333,12 +375,12 @@ a:link, a:visited {
     z-index: 1000;
     border-radius: 0px;
 }
-.footer 
-{
-    padding:30px;
+
+.footer {
+    padding: 30px;
     background-color: #000;
     color: #fff;
- width: 96%;
+    width: 96%;
     text-align: center;
     position: relative;
 }
@@ -364,31 +406,32 @@ a:link, a:visited {
 
 .content {
     flex: 1;
-  
+
 }
 
 
 
 .content p {
-    margin: 20px ;
+    margin: 20px;
 }
-.main-image-box { 
-    padding: 10px;            
-    margin: 10px 0;         
-    border-radius: 8px;      
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+
+.main-image-box {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     background-color: rgba(249, 249, 249, 0.7);
-    
+
 
 }
 
 .main-image-box:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 
 .main-image {
 
-    
+
     background-image: url('resources/IMG_9409.jpg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -410,8 +453,8 @@ a:link, a:visited {
     height: 300px;
     background-size: contain;
     background-repeat: no-repeat;
-   position: relative;
-   top: 50px
+    position: relative;
+    top: 50px
 }
 
 .Unity-image {
@@ -423,11 +466,12 @@ a:link, a:visited {
     position: relative;
 
 }
-.journey-image-box { 
-    padding: 10px;            
-    margin: 10px 0;         
-    border-radius: 8px;      
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+
+.journey-image-box {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     background-color: rgba(249, 249, 249, 0.7);
     max-width: 230px;
 
@@ -435,39 +479,39 @@ a:link, a:visited {
 }
 
 .journey-image-box:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 
-  .container {
-    padding: 5px ;
-  }
+.container {
+    padding: 5px;
+}
 
-  .year2-image {
+.year2-image {
     background-image: url('resources/code-1084923_960_720.webp');
 
     background-size: contain;
     background-repeat: no-repeat;
     height: 300px;
     border-radius: 16px;
-  }
+}
 
-  .year3-image {
+.year3-image {
     background-image: url('resources/INTERn.png');
 
     background-size: contain;
     background-repeat: no-repeat;
     height: 300px;
     border-radius: 16px;
-  }
+}
 
-  .year4-image {
+.year4-image {
     background-image: url('resources/AIT.png');
 
     background-size: contain;
     background-repeat: no-repeat;
     height: 300px;
     border-radius: 16px;
-  }
+}
 
 
 
@@ -479,7 +523,7 @@ p {
     text-align: center;
 }
 
-.article{
+.article {
     justify-content: center;
     text-align: center;
 }
@@ -492,20 +536,20 @@ p {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     background-color: rgba(249, 249, 249, 0.7);
-   
+
 }
 
 .video-box:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 
 .video-box video {
     object-fit: contain;
     overflow-clip-margin: content-box;
     overflow: clip;
-   align-items: center;
-   max-width: 500px;
-   
+    align-items: center;
+    max-width: 500px;
+
 }
 
 
@@ -516,37 +560,42 @@ p {
 
 .Me-image {
     background-image: url('resources/351473405_257921313481612_1110126668839952854_n.jpg');
- 
+
 
 }
+
 .Heart-image {
     background-image: url('resources/Tumblr.gif');
- 
+
 }
+
 .You-image {
     background-image: url('resources/yoi.jpg');
-    
+
 }
 
 
 .Heart-box {
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.8); 
-    padding: 20px; 
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
     border-radius: 10px;
 
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
 }
-.Heart-box:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
 
-  .Me-image, .Heart-image, .You-image {
-    width: 100px; 
-    height: 100px; 
-    background-size: cover; 
+.Heart-box:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Me-image,
+.Heart-image,
+.You-image {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 32px;
     padding: 50px;
@@ -607,8 +656,8 @@ p {
 }
 
 .circle {
-    position: relative; 
-    width: 20px; 
+    position: relative;
+    width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: turquoise;
@@ -654,11 +703,13 @@ p {
         opacity: 1;
         background-color: rgba(39, 240, 56, 0.596);
     }
+
     50% {
-        transform: translate(0, 10px) scale(0.4); 
+        transform: translate(0, 10px) scale(0.4);
         opacity: 0.5;
         background-color: rgb(0, 0, 0);
     }
+
     100% {
         transform: translate(0, 0) scale(1);
         opacity: 1;
@@ -668,53 +719,60 @@ p {
 
 @keyframes logo-color-animation {
     12.5% {
-        color: rgb(196, 73, 245); 
+        color: rgb(196, 73, 245);
     }
+
     25% {
-        color: skyblue; 
+        color: skyblue;
     }
+
     37.5% {
-        color: rgb(85, 114, 212); 
+        color: rgb(85, 114, 212);
     }
+
     50% {
-        color: rgb(99, 200, 156); 
+        color: rgb(99, 200, 156);
     }
+
     62.5% {
-        color: rgb(240, 200, 130); 
+        color: rgb(240, 200, 130);
     }
+
     75% {
-        color: rgb(248, 119, 59); 
+        color: rgb(248, 119, 59);
     }
+
     87.5% {
-        color: rgb(245, 55, 55); 
+        color: rgb(245, 55, 55);
     }
+
     100% {
-        color: rgb(250, 101, 218); 
+        color: rgb(250, 101, 218);
     }
+
     87.5% {
-        color: rgb(245, 55, 55); 
+        color: rgb(245, 55, 55);
     }
+
     75% {
-        color: rgb(248, 119, 59); 
+        color: rgb(248, 119, 59);
     }
-  62.5% {
-        color: rgb(240, 200, 130); 
+
+    62.5% {
+        color: rgb(240, 200, 130);
     }
-      50% {
-        color: rgb(99, 200, 156); 
+
+    50% {
+        color: rgb(99, 200, 156);
     }
-   37.5% {
-        color: rgb(85, 114, 212); 
+
+    37.5% {
+        color: rgb(85, 114, 212);
     }
+
     25% {
-        color: skyblue; 
+        color: skyblue;
     }
- 
+
 
 }
-
-  
-  
-    
-
-   
