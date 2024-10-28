@@ -550,6 +550,7 @@ p {
     background-repeat: no-repeat;
     border-radius: 32px;
     padding: 50px;
+    display: inline-flex;
 }
 
 
