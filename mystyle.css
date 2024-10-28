@@ -253,7 +253,7 @@ p{
 margin-top: 50px;
     }
     .journey-image-box { 
-      
+      display: table-cell;
         margin-right: 50px; 
        
     }
@@ -430,7 +430,7 @@ a:link, a:visited {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     background-color: rgba(249, 249, 249, 0.7);
     max-width: 230px;
-    display: table-cell;
+
     width: 230px;
 }
 
