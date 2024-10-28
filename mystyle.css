@@ -185,7 +185,13 @@ body {
     .animation-wrapper {
         display: none;
     }
-
+    .CENTER-JOURNEY {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
     .circle {
         display: none;
     }
@@ -259,7 +265,9 @@ body {
         width: 500px;
         height: 300px;
     }
-
+    .CENTER-JOURNEY{
+    display: inline;
+    }
     h1,
     h3 {
         font-family: 'Courier New', Courier, monospace;
@@ -481,7 +489,9 @@ a:active {
 .journey-image-box:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+.CENTER-JOURNEY{
 
+}
 .container {
     padding: 5px;
 }
