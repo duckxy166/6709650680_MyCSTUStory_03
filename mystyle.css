@@ -239,7 +239,7 @@ body {
     }
 
     .content h1 {
-        font-size: 2em;
+        font-size: 3em;
     }
 
     .h1 {
@@ -248,7 +248,7 @@ body {
     }
 
     .navbar .logo {
-        font-size: 2em;
+        font-size: 3em;
     }
 
     .navbar {
@@ -256,7 +256,7 @@ body {
         padding: 0;
         width: 200px;
         position: fixed;
-        height: 100px;
+        height: 100%;
         overflow: visible;
         display: block;
     }
@@ -296,7 +296,7 @@ body {
     a:visited {
 
         padding: 15px 30px;
-
+margin: 15px;
     }
 
     .main-image {
@@ -357,29 +357,34 @@ body {
     }
 
     .year2-image {
-        width: 300px;
+        width: 500px;
     }
 
     .year3-image {
-        width: 300px;
+        width: 500px;
     }
 
     .year4-image {
-        width: 300px;
+        width: 500px;
     }
 
     .animation-wrapper {
-        display: none;
+        display: flex;
+        justify-content: center;
+        margin: 20px;
     }
     .CENTER-JOURNEY {
         display: flex;
+        flex-flow: column;
         flex-wrap: wrap;
         justify-content: center;
         align-content: center;
         align-items: center;
     }
     .circle {
-        display: none;
+        display: flex;
+        justify-content: center;
+     
     }
 }
 
