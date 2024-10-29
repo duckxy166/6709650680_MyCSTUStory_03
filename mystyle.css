@@ -585,6 +585,7 @@ a:active {
     width: 100%;
     text-align: center;
     position: relative;
+    margin-top: 50px;
 }
 
 .navbar ul {
@@ -733,7 +734,7 @@ p {
 
 .video-box {
     padding: 10px;
-    margin: 10px 0;
+
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     background-color: rgba(249, 249, 249, 0.7);
